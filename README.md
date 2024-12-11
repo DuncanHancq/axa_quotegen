@@ -8,7 +8,7 @@ Ce projet permet aux utilisateurs de générer des devis en associant des champs
 - Association des colonnes Excel aux espaces réservés sur un template DOCX.
 - Suggestion automatique des associations
 - Génération de fichiers DOCX basés sur les associations et conversion en pdf. (todo)
-- Téléchargement des fichiers PDF générés et trier sous forme d'archive ZIP. (fichiers DOCX pour moment)
+- Téléchargement des fichiers PDF générés et trier sous forme d'archive ZIP. (fichiers DOCX pour le moment)
 
 ## Prérequis
 
