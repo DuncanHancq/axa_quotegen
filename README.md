@@ -45,6 +45,6 @@ Ce projet permet aux utilisateurs de générer des devis en associant des champs
 ## Todo
 
 - Conversion docx -> pdf
-- package "xlsx" à remplacer (problème de sécu)
-- front end
-- nettoyage de code
+- Package "xlsx" à remplacer (problème de sécu)
+- Front end
+- Nettoyage de code
