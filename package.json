@@ -1,0 +1,28 @@
+{
+  "name": "axa_quotegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "docxtemplater": "^3.55.5",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "fs": "0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "pizzip": "^3.1.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

@@ -1,0 +1,46 @@
+<h1 class="header1">{{ title }}</h1>
+
+<h2>Chargement de fichiers</h2>
+<form id="fileForm">
+    <label for="fileInput">Fichier Excel :</label>
+    <input type="file" id="fileInput" accept=".xlsx" required />
+
+    <label for="sheetSelect">Sélectionnez une feuille :</label>
+    <select id="sheetSelect" disabled>
+        <option value="">Veuillez d'abord charger un fichier Excel</option>
+    </select>
+
+    <label for="docxInput">Fichier DOCX :</label>
+    <input type="file" id="docxInput" accept=".docx" required />
+
+    <button type="submit" disabled id="loadFiles">Charger les Fichiers</button>
+</form>
+
+<h2>Correspondance des Champs</h2>
+<button type="button" id="autoMap">Correspondance intelligente</button>
+<form id="mappingForm">
+    <div id="fieldsContainer"></div>
+</form>
+
+<h2>Information de nommage et de tri</h2>
+<form id="namingForm">
+    <label for="sortBy">Trier les devis par :</label>
+    <select id="sortBy" disabled>
+        <option value="">Veuillez d'abord charger un fichier Excel</option>
+    </select>
+    <div>
+        <label for="staticFileNaming">Nom statique :</label>
+        <input type="text" name="staticFileNaming" id="staticFileNaming">
+    </div>
+    <label for="idNamingOptions">Identifiant dynamique :</label>
+    <select id="idNamingOptions" disabled>
+        <option value="">Veuillez d'abord charger un fichier Excel</option>
+    </select>
+</form>
+
+<button type="button" id="generateQuotes">Créer les devis</button>
+<button type="button" id="downloadZip" disabled>Télécharger le fichier ZIP</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.2/mammoth.browser.min.js"></script>
+<script src="/js/form.js" type="text/javascript"></script>
